@@ -1,0 +1,134 @@
+@media screen and (max-width: 480px)
+{
+	#title {
+		font-size: 13px;
+		padding: 5px;
+	}
+	
+	#menu-button {
+		float: right;
+		right: 5px;
+		background: black;
+		color: white;
+	}
+	
+	#menu-container {
+		display: block;
+	}
+	
+	nav #menu {
+		display: block;
+	}
+	
+	nav #menu li {
+		display: block;
+	}
+	
+	nav #menu .submenu {
+		display: block;
+		float: left;
+		margin: -21px -211px;
+	}
+	
+	nav #menu {
+		display: none;
+		float: right;
+		//right: 10px;
+		margin: 0 10px;
+	}
+	
+	nav #menu a {
+		text-align: right;
+	}
+
+}
+@media screen and (min-width: 481px) and (max-width: 900px)
+{
+	#title {
+		font-size: 17px;
+		padding: 8px;
+	}
+	
+	#menu-container {
+		display: block;
+	}
+	
+	#menu-button {
+		display: none;
+	}
+	
+	nav #menu {
+		display: inline-block !important;
+	}
+	
+	nav #menu li {
+		display: inline-block;
+	}
+	
+	nav #menu .submenu {
+		display: inline-block;
+		vertical-align: top;
+		margin: 35px -223px;
+	}
+}
+
+@media screen and (min-width: 901px)
+{
+	#title {
+		font-size: 25px;
+		padding: 16px;
+	}
+	
+	#menu-container {
+		width: 100%;
+		display: inline-flex;
+	}
+	
+	#menu-button {
+		display: none;
+	}
+	
+	nav #menu {
+		display: inline-block !important;
+	}
+	
+	nav #menu li {
+		display: inline-block;
+	}
+	
+	nav #menu .submenu {
+		display: inline-block;
+		vertical-align: top;
+		margin: 44px -270px;
+	}
+	
+	nav #menu li a {
+		font-size: 20px;
+	}
+}
+
+#menu {
+	clear: right;
+}
+
+#menu-container {
+	padding: 15px;
+	background: black;
+	color: white;
+	border-radius: 5px;
+	overflow: auto;
+}
+
+#other {
+	clear: both;
+}
+
+#menu li, #menu a {
+	text-align: center;
+	padding: 5px;
+}
+
+#menu a:hover {
+	background: red;
+	border-radius: 5px;
+}
